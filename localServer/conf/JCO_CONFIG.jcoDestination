@@ -1,9 +1,0 @@
-#Config for connect SAP RFC
-#Wed Mar 07 18:40:18 ICT 2018
-jco.client.lang=en
-jco.client.client=800
-jco.client.passwd=Reset@123
-jco.client.user=TECHBERRY
-jco.client.sysnr=00
-jco.client.ashost=192.168.15.95
-funcname=ZRFC_DEMO
