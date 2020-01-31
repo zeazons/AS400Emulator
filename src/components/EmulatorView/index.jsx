@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class EmulatorView extends Component {
   render() {
+    const { id, readOnly } = props;
     return (
       <div className="as400-container">
         <div className="screen">
