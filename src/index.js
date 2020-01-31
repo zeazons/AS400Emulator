@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import Emulator from "./components/Emulator";
+// import Emulator from "./components/Emulator";
 
 export default class EmulatorComponent extends Component {
   render() {
-    return <Emulator />;
+    return <div>Emulator</div>;
   }
 }
