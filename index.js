@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var EmulatorView = function EmulatorView(props) {
+var _default = EmulatorView = function EmulatorView(props) {
   var id = props.id,
       readOnly = props.readOnly;
   return _react["default"].createElement("div", {
@@ -29,7 +29,6 @@ var EmulatorView = function EmulatorView(props) {
   })));
 };
 
-var _default = [EmulatorView];
 exports["default"] = _default;
 "use strict";
 
@@ -277,8 +276,6 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _jquery = _interopRequireDefault(require("jquery"));
 
-var _EmulatorView = _interopRequireDefault(require("./EmulatorView"));
-
 var _controler = require("./controler");
 
 require("./css/style.css");
@@ -408,10 +405,7 @@ function (_Component) {
       var _this$props2 = this.props,
           id = _this$props2.id,
           readOnly = _this$props2.readOnly;
-      return _react["default"].createElement(_EmulatorView["default"], {
-        id: id,
-        readOnly: readOnly
-      });
+      return _react["default"].createElement("div", null, "XXXXXXX"); // return <EmulatorView id={id} readOnly={readOnly} />;
     } // Set default props
 
   }]);

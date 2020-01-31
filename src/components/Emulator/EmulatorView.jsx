@@ -1,6 +1,6 @@
 import React from "react";
 
-const EmulatorView = props => {
+export default EmulatorView = props => {
   const { id, readOnly } = props;
 
   return (
@@ -20,5 +20,3 @@ const EmulatorView = props => {
     </div>
   );
 };
-
-export default [EmulatorView];

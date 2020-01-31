@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import $ from "jquery";
 
-import EmulatorView from "./EmulatorView";
+// import EmulatorView from "./EmulatorView";
 
 import {
   initScreen,
@@ -89,7 +89,8 @@ class Emulator extends Component {
 
   render() {
     const { id, readOnly } = this.props;
-    return <EmulatorView id={id} readOnly={readOnly} />;
+    return <div>XXXXXXX</div>;
+    // return <EmulatorView id={id} readOnly={readOnly} />;
   }
 
   // Set default props
