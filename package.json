@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/zeazons/AS400Emulator.git"
   },
-  "author": "Jutawuth.N",
+  "author": "jutawuth.n",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zeazons/AS400Emulator/issues"
