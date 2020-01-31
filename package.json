@@ -1,11 +1,13 @@
 {
   "name": "emulator",
   "version": "1.0.0",
+  "private": false,
   "description": "as400 emulator for react",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel src --out-file index.js"
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
   },
   "repository": {
     "type": "git",
