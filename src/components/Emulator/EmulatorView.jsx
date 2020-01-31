@@ -21,4 +21,4 @@ const EmulatorView = props => {
   );
 };
 
-export default EmulatorView;
+export default [EmulatorView];

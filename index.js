@@ -29,7 +29,7 @@ var EmulatorView = function EmulatorView(props) {
   })));
 };
 
-var _default = EmulatorView;
+var _default = [EmulatorView];
 exports["default"] = _default;
 "use strict";
 
@@ -1023,8 +1023,6 @@ exports["default"] = void 0;
 
 var _Emulator = _interopRequireDefault(require("./components/Emulator"));
 
-var _EmulatorView = _interopRequireDefault(require("./components/Emulator/EmulatorView"));
-
 var _FieldsMapping = _interopRequireDefault(require("./components/FieldsMapping"));
 
 var _ListMapping = _interopRequireDefault(require("./components/ListMapping"));
@@ -1033,5 +1031,5 @@ var _ScreenMapping = _interopRequireDefault(require("./components/ScreenMapping"
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _default = [_Emulator["default"], _EmulatorView["default"], _FieldsMapping["default"], _ListMapping["default"], _ScreenMapping["default"]];
+var _default = [_Emulator["default"], _FieldsMapping["default"], _ListMapping["default"], _ScreenMapping["default"]];
 exports["default"] = _default;
