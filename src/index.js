@@ -1,12 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Emulator from "./components/Emulator";
+import FieldsMapping from "./components/FieldsMapping";
+import ListMapping from "./components/ListMapping";
+import ScreenMapping from "./components/ScreenMapping";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default [Emulator, FieldsMapping, ListMapping, ScreenMapping];
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+// import App from './App';
+// import * as serviceWorker from './serviceWorker';
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+// // If you want your app to work offline and load faster, you can change
+// // unregister() to register() below. Note this comes with some pitfalls.
+// // Learn more about service workers: https://bit.ly/CRA-PWA
+// serviceWorker.unregister();
