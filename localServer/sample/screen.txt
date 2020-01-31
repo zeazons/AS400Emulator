@@ -1,0 +1,24 @@
+                                   Sign On                                      
+                                               System  . . . . . :   S101CD3M   
+                                               Subsystem . . . . :   QINTER     
+                                               Display . . . . . :   QPADEV003R 
+                                                                                
+                User  . . . . . . . . . . . . . .                               
+                Password  . . . . . . . . . . . .                               
+                Program/procedure . . . . . . . .                               
+                Menu  . . . . . . . . . . . . . .                               
+                Current library . . . . . . . . .                               
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                        (C) COPYRIGHT IBM CORP. 1980, 2005.     

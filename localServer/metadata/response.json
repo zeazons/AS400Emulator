@@ -1,0 +1,72 @@
+{
+  "DATA": {
+    "ES_STRUCTURE": {
+      "ZCHAR": "abcdefghijklmnopqrstuvwxyz1234",
+      "ZDEC": 123.1,
+      "ZINT": 111,
+      "ZSTRING": "TechBerry"
+    },
+    "ET_TABLE": [
+      {
+        "ZCHAR": "abcdefghijklmnopqrstuvwxyz---1",
+        "ZDEC": 1.1,
+        "ZINT": 11,
+        "ZSTRING": "TB-1"
+      },
+      {
+        "ZCHAR": "abcdefghijklmnopqrstuvwxyz---2",
+        "ZDEC": 2.2,
+        "ZINT": 22,
+        "ZSTRING": "TB-2"
+      }
+    ],
+    "EV_CHAR": "ChAr 30 ## +-*/",
+    "EV_DEC": 99.99,
+    "EV_INT": 100,
+    "EV_STRING": "HELLO",
+    "CI_CHAR_X": "X",
+    "CI_DEC_X": "X",
+    "CI_INT_X": "X",
+    "CI_STRING_X": "X",
+    "CI_STRUCTURE_X": "X",
+    "CI_TABLE_X": "X",
+    "CT_TABLE_X": "X",
+    "T_APPEND": [
+      {
+        "ZCHAR": "1234567890 - 1",
+        "ZDEC": 1000,
+        "ZINT": 999
+      },
+      {
+        "ZCHAR": "1234567890 - 2",
+        "ZDEC": 2000,
+        "ZINT": 888
+      },
+      {
+        "ZCHAR": "1234567890 - 3",
+        "ZDEC": 3000,
+        "ZINT": 777
+      },
+      {
+        "ZCHAR": "1234567890 - 1",
+        "ZDEC": 1000,
+        "ZINT": 999
+      },
+      {
+        "ZCHAR": "1234567890 - 2",
+        "ZDEC": 2000,
+        "ZINT": 888
+      },
+      {
+        "ZCHAR": "1234567890 - 3",
+        "ZDEC": 3000,
+        "ZINT": 777
+      }
+    ]
+  },
+  "HEADER": {
+    "tokenId": "EWI112233445566",
+    "requestId": "ABC123456789",
+    "deviceId": "UUID9988776655"
+  }
+}
