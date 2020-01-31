@@ -2,7 +2,7 @@
   "name": "emulator",
   "version": "1.0.0",
   "description": "as400 emulator for react",
-  "main": "index.js",
+  "main": "./src/build",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel src --out-file index.js"
