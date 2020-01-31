@@ -3,38 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-var _default = EmulatorView = function EmulatorView(props) {
-  var id = props.id,
-      readOnly = props.readOnly;
-  return _react["default"].createElement("div", {
-    className: "as400-container"
-  }, _react["default"].createElement("div", {
-    className: "screen"
-  }, _react["default"].createElement("div", {
-    className: "".concat(id, " as400-highlight")
-  }), _react["default"].createElement("div", {
-    className: "".concat(id, " as400-style")
-  }), _react["default"].createElement("textarea", {
-    readOnly: readOnly ? readOnly : false,
-    className: "".concat(id, " as400-screen")
-  }), _react["default"].createElement("textarea", {
-    readOnly: readOnly ? readOnly : false,
-    className: "".concat(id, " as400-screen-temp")
-  })));
-};
-
-exports["default"] = _default;
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 exports.markAllCheckStringOnScreen = exports.setAS400Cursor = exports.setAs400Style = exports.setAs400Screen = exports.initScreen = exports.getSelectionRange = exports.getEndSelection = exports.getStartSelection = exports.setIndexByRowCol = exports.getAS400Cursor = exports.setSelectionRange = exports.getIndexByRowCol = exports.getHighlightDefault = void 0;
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -276,6 +244,8 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _jquery = _interopRequireDefault(require("jquery"));
 
+var _EmulatorView = _interopRequireDefault(require("../EmulatorView"));
+
 var _controler = require("./controler");
 
 require("./css/style.css");
@@ -404,8 +374,12 @@ function (_Component) {
     value: function render() {
       var _this$props2 = this.props,
           id = _this$props2.id,
-          readOnly = _this$props2.readOnly;
-      return _react["default"].createElement("div", null, "XXXXXXX"); // return <EmulatorView id={id} readOnly={readOnly} />;
+          readOnly = _this$props2.readOnly; // return <div>XXXXXXX</div>;
+
+      return _react["default"].createElement(_EmulatorView["default"], {
+        id: id,
+        readOnly: readOnly
+      });
     } // Set default props
 
   }]);
@@ -433,6 +407,38 @@ Emulator.propTypes = {
   readOnly: _propTypes["default"].bool
 };
 var _default = Emulator;
+exports["default"] = _default;
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default = EmulatorView = function EmulatorView(props) {
+  var id = props.id,
+      readOnly = props.readOnly;
+  return _react["default"].createElement("div", {
+    className: "as400-container"
+  }, _react["default"].createElement("div", {
+    className: "screen"
+  }, _react["default"].createElement("div", {
+    className: "".concat(id, " as400-highlight")
+  }), _react["default"].createElement("div", {
+    className: "".concat(id, " as400-style")
+  }), _react["default"].createElement("textarea", {
+    readOnly: readOnly ? readOnly : false,
+    className: "".concat(id, " as400-screen")
+  }), _react["default"].createElement("textarea", {
+    readOnly: readOnly ? readOnly : false,
+    className: "".concat(id, " as400-screen-temp")
+  })));
+};
+
 exports["default"] = _default;
 "use strict";
 
